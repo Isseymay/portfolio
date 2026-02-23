@@ -1,3 +1,7 @@
+body{
+    margin:0px;
+}
+
 .header{
     display: block;
     padding:0px;
@@ -5,6 +9,7 @@
     width:100%;
 
 }
+
 .header>h1{
     margin:25px 5% 5px;
 }
@@ -33,20 +38,38 @@
 
 /* ????? */
 #hero_placehoder{
-    width:50%;
-    height:100px;
+    padding:5px;
     background-color: brown;
     display:inline-block;
-    margin:5px;
-    max-height: fit-content;
+    
+    
+}
+
+#hero_placeholder>img{
+    height:200px;
+    /* display:inline-block; */
+    width:40%;
+    border:5px;
+    margin-right:5%;
 }
 
 #hero_text{
     display:inline-block;
-    width:50%;
+    width:45%;
 
 }
 
 .hero{
-    display: inline-block;
+    display:flexbox;
+    /* width:95%; */
+    align-items:center;
+    justify-content:center;
+    margin:10px;
+    
+}
+
+.hero>div{
+    display:inline;
+    vertical-align:middle;
+    
 }
